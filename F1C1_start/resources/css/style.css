@@ -29,6 +29,7 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -41,6 +42,7 @@ html {
 
 header {
   position: fixed;
+  z-index: 100;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
@@ -52,10 +54,6 @@ header .content {
   display: flex;
   align-items: center;
   padding: 1.875rem;
-  height: 31.4205px;
-  width: 1024.38px;
-  padding: 30px;
-
 }
 
 header .logo {
@@ -64,7 +62,6 @@ header .logo {
 
 header nav ul {
   display: flex;
-  float: right;
 }
 
 nav li {
@@ -244,9 +241,6 @@ header .mobile {
   width: 90%;
   height: 65%;
   margin: 0 auto;
-  height: 201.378px;
-  width: 274.972px;
-  max-width: 100%;
 }
 
 .feature h2 {
